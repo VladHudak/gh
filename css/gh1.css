@@ -48,7 +48,7 @@ html, body {
     height: 100%;
     width: 100%;
     margin: 0;
-    background: #fff url("images/back_stripe_140_60.png") repeat-x;
+    background: #fff url("images/back_stripe_140_60.png") top repeat-x;
     font: 16px/1.5 Ubuntu;
     color: #666;
 }
@@ -61,27 +61,6 @@ div#WRAPPER {
     min-width: 1000px;
 }
 
-/*
-div#WRAPPER div#LCOL {
-    display: table-cell;
-    min-width: 120px;
-    background: linear-gradient(270deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) 20px, rgba(0, 0, 0, 0.0) 40px),
-        url("images/back_stripe_200_60.png"),
-        url("images/back_side.jpg");
-    background-position: right top, left top, left top;
-    background-repeat: repeat-x, no-repeat, no-repeat;
-}
-
-div#WRAPPER div#RCOL {
-    display: table-cell;
-    min-width: 120px;
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) 20px, rgba(0, 0, 0, 0.0) 40px),
-        url("images/back_stripe_200_60.png"),
-        url("images/back_side.jpg");
-    background-position: left top, left top, left top;
-    background-repeat: repeat-x, no-repeat, no-repeat;
-}
-*/
 div#WRAPPER div#LCOL {
     display: table-cell;
     min-width: 120px;
