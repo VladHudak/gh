@@ -1,0 +1,225 @@
+@font-face {
+    font-family: UbuntuLight;
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/Ubuntu-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/Ubuntu-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    src: url('fonts/Ubuntu-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: UbuntuMedium;
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/Ubuntu-Medium.ttf') format('truetype');
+}
+
+.invisible {
+    display: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: #fff url("images/back_stripe_140_60.png") repeat-x;
+    font: 16px/1.5 Ubuntu;
+    color: #666;
+}
+
+div#WRAPPER {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+    min-width: 1000px;
+}
+
+/*
+div#WRAPPER div#LCOL {
+    display: table-cell;
+    min-width: 120px;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) 20px, rgba(0, 0, 0, 0.0) 40px),
+        url("images/back_stripe_200_60.png"),
+        url("images/back_side.jpg");
+    background-position: right top, left top, left top;
+    background-repeat: repeat-x, no-repeat, no-repeat;
+}
+
+div#WRAPPER div#RCOL {
+    display: table-cell;
+    min-width: 120px;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) 20px, rgba(0, 0, 0, 0.0) 40px),
+        url("images/back_stripe_200_60.png"),
+        url("images/back_side.jpg");
+    background-position: left top, left top, left top;
+    background-repeat: repeat-x, no-repeat, no-repeat;
+}
+*/
+div#WRAPPER div#LCOL {
+    display: table-cell;
+    min-width: 120px;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.15) 20px, rgba(0, 0, 0, 0.0) 40px),
+        url("images/back_stripe_140_60.png"), url("images/back_side.jpg");
+    background-position: right top, right top, right top;
+    background-repeat: repeat-x, repeat-x, repeat-x;
+}
+
+div#WRAPPER div#RCOL {
+    display: table-cell;
+    min-width: 120px;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.15) 20px, rgba(0, 0, 0, 0.0) 40px),
+        url("images/back_stripe_140_60.png"), url("images/back_side.jpg");
+    background-position: left top, left top, left top;
+    background-repeat: repeat-x, repeat-x, repeat-x;
+}
+
+div#WRAPPER div#CCOL {
+    display: table-cell;
+    width: 960px;
+}
+
+div#LOGO {
+    height: 140px;
+    background: #fff url("images/logo2.png") no-repeat center center;
+}
+
+nav {
+    display: block;
+    overflow: hidden;
+    height: 60px;
+    vertical-align: middle;
+}
+
+nav ul {
+    padding-top: 9px;
+    text-align: center;
+    font: 22px/1.5 UbuntuLight;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 10px;
+    padding: 4px 10px;
+}
+
+nav ul li a {
+    transition: color 1s ease;
+    text-decoration: none;
+    color: #3d3;
+}
+
+nav ul li a:HOVER {
+    transition: color 0s ease;
+    text-decoration: none;
+    color: #fff;
+}
+
+div#OBSAH {
+    display: table;
+    width: 912px;
+    text-align: center;
+    padding: 20px;
+}
+
+div#OBSAH img {
+    clear: both;
+}
+
+h1 {
+    display: table;
+    margin: 40px auto 20px auto;
+    padding: 0 32px;
+    background-image: url("images/leaf_left.png"), url("images/leaf_right.png");
+    background-position: 0 50%, 100% 50%;
+    background-repeat: no-repeat, no-repeat;
+    font: 28px/1.5 Ubuntu;
+    color: #090;
+}
+
+h2 {
+    display: table;
+    margin: 20px auto;
+    padding: 0 32px;
+    background-image: url("images/leaf_left.png"), url("images/leaf_right.png");
+    background-position: 0 50%, 100% 50%;
+    background-repeat: no-repeat, no-repeat;
+    font: 28px/1.5 Ubuntu;
+    color: #090;
+}
+
+h3 {
+    display: table;
+    margin: 17px auto;
+    padding: 0 32px;
+    font: 22px/1.5 Ubuntu;
+    color: #060;
+}
+
+h4 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font: 22px/1.5 Ubuntu;
+    color: #060;
+}
+
+p {
+    font: 17px/1.5 Ubuntu;
+    color: #666;
+}
+
+p.cena {
+    margin: 10px 0;
+    font: 17px/1.5 Ubuntu;
+    font-weight: bold;
+    color: #000;
+    font: 16px/1.5 UbuntuMedium;
+}
+
+a {
+    color: #090;
+    text-decoration: underline;
+}
+
+a:HOVER {
+    color: #000;
+    text-decoration: underline;
+}
+
+.w_24 {
+    width: 24px;
+}
+
+.w_288 {
+    width: 288px;
+}
