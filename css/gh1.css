@@ -129,11 +129,11 @@ div#OBSAH {
     text-align: center;
     padding: 20px;
 }
-
+/*
 div#OBSAH img {
     clear: both;
 }
-
+*/
 h1 {
     display: table;
     margin: 40px auto 20px auto;
@@ -158,7 +158,7 @@ h2 {
 
 h3 {
     display: table;
-    margin: 17px auto;
+    margin: 12px auto;
     padding: 0 32px;
     font: 22px/1.5 Ubuntu;
     color: #060;
@@ -175,10 +175,11 @@ h4 {
 p {
     font: 17px/1.5 Ubuntu;
     color: #666;
+    margin-bottom: 32px;
 }
 
 p.cena {
-    margin: 10px 0;
+    margin: 7px 0 10px 0;
     font: 17px/1.5 Ubuntu;
     font-weight: bold;
     color: #000;
@@ -195,10 +196,33 @@ a:HOVER {
     text-decoration: underline;
 }
 
-.w_24 {
-    width: 24px;
+.w_20 {
+    width: 20px;
 }
 
-.w_288 {
-    width: 288px;
+.w_120 {
+    width: 120px;
+}
+
+.w_240 {
+    width: 240px;
+}
+
+table {
+    border-spacing: 0;
+    border-width: 0;
+    margin: 0 auto;
+}
+
+table.ponuka tr {
+    height: 140px;
+    padding: 0;
+    margin: 0;
+}
+
+table.ponuka td {
+    text-align: left;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
 }
