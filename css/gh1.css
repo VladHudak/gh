@@ -245,3 +245,7 @@ div#POPIS h3 {
     margin-left: 0;
     margin-right: 0;
 }
+
+div#POPIS h2 {
+    clear: both;
+}
