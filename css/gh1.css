@@ -200,7 +200,7 @@ p.cena {
 table {
     border-spacing: 0;
     border-width: 0;
-    margin: 0 auto;
+    margin: 48px auto;
 }
 
 table.ponuka tr {
@@ -210,7 +210,7 @@ table.ponuka tr {
 }
 
 table.ponuka td {
-    text-align: left;
+    text-align: center;
     vertical-align: top;
     padding: 0;
     margin: 0;
