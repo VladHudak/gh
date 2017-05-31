@@ -67,7 +67,7 @@ div#WRAPPER div#LCOL {
     background: linear-gradient(270deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.15) 20px, rgba(0, 0, 0, 0.0) 40px),
         url("images/back_stripe_140_60.png"), url("images/back_side.jpg");
     background-position: right top, right top, right top;
-    background-repeat: repeat-x, repeat-x, repeat-x;
+    background-repeat: repeat-x, repeat-x, repeat-y;
 }
 
 div#WRAPPER div#RCOL {
@@ -76,7 +76,7 @@ div#WRAPPER div#RCOL {
     background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.15) 20px, rgba(0, 0, 0, 0.0) 40px),
         url("images/back_stripe_140_60.png"), url("images/back_side.jpg");
     background-position: left top, left top, left top;
-    background-repeat: repeat-x, repeat-x, repeat-x;
+    background-repeat: repeat-x, repeat-x, repeat-y;
 }
 
 div#WRAPPER div#CCOL {
